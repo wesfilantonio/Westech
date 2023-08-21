@@ -1,0 +1,257 @@
+/* Estilos para telas de tablet com largura máxima de 768 pixels */
+@media (max-width: 768px) {
+  .nav-bar {
+    gap: 20px;
+    /* Reduza o espaçamento entre os elementos na navbar */
+  }
+
+  .nav-conteiner {
+    margin-right: 10px;
+    /* Reduza a margem direita do conteiner da navbar */
+  }
+
+  .logo {
+    margin-left: 20px;
+    /* Reduza a margem esquerda do logo */
+  }
+}
+
+
+
+/* Estilos para dispositivos móveis com largura máxima de 480 pixels */
+@media (max-width: 480px) {
+  .nav-bar {
+    flex-direction: column;
+    /* Altera a direção dos elementos para uma coluna */
+    gap: 10px;
+    /* Reduza o espaçamento entre os elementos na navbar */
+  }
+
+  .nav-conteiner {
+    margin-right: 0;
+    /* Remova a margem direita do conteiner da navbar */
+  }
+
+  .logo {
+    margin-left: 0;
+    /* Remova a margem esquerda do logo */
+    margin-bottom: 10px;
+    /* Adicione uma margem inferior ao logo */
+  }
+
+  .nav-link {
+    flex-direction: column;
+    /* Altera a direção dos links para uma coluna */
+    gap: 10px;
+    /* Reduza o espaçamento entre os links */
+  }
+
+  button {
+    width: 100%;
+    /* Defina a largura do botão como 100% da largura da tela */
+    margin-right: 0;
+    /* Remova a margem direita do botão */
+  }
+}
+
+
+/* Header Style */
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: ghostwhite;
+}
+
+li{
+  overflow: hidden;
+}
+a{
+  font-size: 11pt;
+}
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-link{
+  gap: 20px;
+  padding: 4px;
+}
+button{
+  /* Estilo do Buttom */
+  color: white;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  text-decoration: none;
+  /* Layout do Buttom */
+  background: #5754C8;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+#btn{
+  font-size: 10pt;
+}
+
+.logo{
+  /* Layout do Buttom 
+    display: flex;
+  position: fixed;
+  top:10px;
+  left: 10px;
+  */
+  padding: 10px;
+  margin-left: 50px;
+}
+.nav-conteiner{
+  font-family: "Roboto" sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-left: 285px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 30px;
+}
+.nav-bar{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+li,
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: #5754C8;
+}
+#hero-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center top;
+}
+#hero-cover {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+}
+.text-hero{
+  margin-top: 160px;
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* H...'s Style */
+
+h1{
+  margin-top: 10px;
+  font-size: 72px;
+  width: 100%;
+  font-weight: medium;
+}
+h2 {
+  padding: 0;
+  margin: 0;
+  color: #5754C8;
+  font-family: "Roboto", sans-serif;
+  font-size: 40pt;
+  letter-spacing: 5px;
+  font-weight: 400;
+  line-height: normal;
+}
+h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  color: #5754C8;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+  width: 604px;
+  color: #5754C8;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h5 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #5754C8;
+  font-size: 16px;
+  font-weight: 400px;
+  letter-spacing: 3px;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 12pt;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Section 1° */
+.sec-conteiner{
+  width: 80%;
+  margin:auto;
+  height: 300px;
+  margin-top: 270px;
+  /*border: 1px solid black;*/
+  display: flex;
+}
+.section-one{
+  width: 100%;
+  height: 400px;
+}
+.section-one h2{
+  margin-right: 60px;
+  font-weight: bold;
+  width: 650px;
+}
+.section-one p{
+  width: 450px;
+  text-align: justify;
+  color: gray;
+}
+
+.section-two{
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+}
